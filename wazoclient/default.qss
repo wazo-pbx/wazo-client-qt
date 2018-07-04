@@ -14,18 +14,22 @@ QLabel[qss_tags~="xlet_h2"] {
 }
 
 QLabel[qss_tags~="xlet_h4"] {
+    color: #000000;
     font: 18px "Dyno";
 }
 
 QLabel[qss_tags~="xlet_p"] {
+    color: #000000;
     font: 12px "Liberation Sans";
 }
 
 *[qss_tags~=xlet_list]{
+    color: #000000;
     font: 14px "Liberation Sans";
 }
 
 *[qss_tags~=xlet_sub_list]{
+    color: #000000;
     font: 12px "Liberation Sans";
 }
 
@@ -88,6 +92,7 @@ QCheckBox{
 QFrame[qss_tags~="input_button"]{
     background-color: #D7D2D0;
     border-radius: 15px;
+    color: #000000;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -122,6 +127,7 @@ AbstractTableView {
     border-top: 1px solid #A6A19F;
     border-bottom: 1px solid #A6A19F;
     background-color: #F5F3F2;
+    color: #000000;
 }
 
 AbstractTableView > QHeaderView::down-arrow {
@@ -139,6 +145,7 @@ AbstractTableView > QHeaderView::section {
     border-left: 1px solid #D7D2D0;
     border-bottom: 1px solid #D7D2D0;
     background-color: #E8E4E2;
+    color: #000000;
     font: 12px "Liberation Sans";
     padding-left: 10px;
 }
@@ -185,6 +192,7 @@ QLineEdit[qss_tags~="styled"], QComboBox#agent_options {
     padding-left: 15px;
     padding-right: 15px;
     selection-background-color: #E77D39;
+    color: #000000;
 }
 
 QLineEdit:disabled {
@@ -202,6 +210,7 @@ QComboBox::drop-down#agent_options {
 
 QComboBox#agent_options QAbstractItemView {
     background-color: #D7D2D0;
+    color: #000000;
 }
 
 /*
